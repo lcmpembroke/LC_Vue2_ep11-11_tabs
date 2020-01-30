@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Laracasts learn vue</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css">
+    <style>
+        body {
+            padding-top: 40px;
+        }
+        h1 {
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="root" class="container">
+
+        <my-tabs>
+            <my-tab name="About us" :selected="true">
+                    <h1>Here is the content of the about us tab.</h1>
+            </my-tab>
+            <my-tab name="About culture">
+                    <h1>Here is the content of the about culture tab.</h1>
+            </my-tab>
+            <my-tab name="About Our Vision">
+                    <h1>Here is the content of the about our vision tab.</h1>
+            </my-tab>                        
+
+        </my-tabs>
+
+    </div>
+
+    <script src="https://unpkg.com/vue@2.4.4/dist/vue.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
